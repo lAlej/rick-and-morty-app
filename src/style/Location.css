@@ -1,0 +1,36 @@
+.locationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(211, 223, 233);
+  background: radial-gradient(circle, rgb(211, 223, 233) 0%, rgb(99, 203, 251) 21%, rgb(83, 171, 238) 66%, rgb(108, 172, 108) 87%, rgb(49, 103, 89) 97%);
+  color: #d3dfe6;
+  overflow-y: hidden;
+}
+.locationContainer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+.locationContainer .infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+}
+.locationContainer .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}/*# sourceMappingURL=Location.css.map */

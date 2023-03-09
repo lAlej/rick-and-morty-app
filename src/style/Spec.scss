@@ -1,0 +1,61 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+.specContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+    background: rgb(211,223,233);
+    background: radial-gradient(circle, rgba(211,223,233,1) 0%, rgba(99,203,251,1) 21%, rgba(83,171,238,1) 66%, rgba(108,172,108,1) 87%, rgba(49,103,89,1) 97%);
+
+    .card {
+        
+        background-color: #161616;
+        color: #d3dfe6;
+    }
+}
+
+@media (min-width: 576px) { 
+
+    .card {
+        width: 55vw;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+
+    .card {
+        width: 55vw;
+    }
+    
+}
+
+@media (min-width: 992px) { 
+
+    .card {
+        width: 85vw;
+    }
+    
+}
+
+@media (min-width: 1200px) { 
+    
+    .card {
+        width: 80vw;
+    }
+    
+
+}
+
+@media (min-width: 1400px) { 
+    
+    .card {
+        width: 55vw;
+    }
+
+ }
+

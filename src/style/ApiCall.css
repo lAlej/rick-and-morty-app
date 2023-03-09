@@ -1,0 +1,42 @@
+.ApiContainer {
+  background: rgb(211, 223, 233);
+  background: radial-gradient(circle, rgb(211, 223, 233) 0%, rgb(99, 203, 251) 21%, rgb(83, 171, 238) 66%, rgb(108, 172, 108) 87%, rgb(49, 103, 89) 97%);
+}
+
+.container .inputsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .inputsContainer__options {
+  display: flex;
+}
+.container .alert {
+  margin: 20px 0;
+}
+.container .disableAlert {
+  display: none;
+}
+.container .buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .buttonContainer button {
+  margin: 20px 0;
+}
+
+.loading {
+  background: rgb(211, 223, 233);
+  background: radial-gradient(circle, rgb(211, 223, 233) 0%, rgb(99, 203, 251) 21%, rgb(83, 171, 238) 66%, rgb(108, 172, 108) 87%, rgb(49, 103, 89) 97%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.loading h1 {
+  margin: 30px;
+}/*# sourceMappingURL=ApiCall.css.map */
