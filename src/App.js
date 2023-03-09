@@ -6,17 +6,11 @@ import Spec from './components/Spec';
 
 function App() {
   return (
-      <BrowserRouter>
-
         <Routes>
-          <Route exact path='/' element={ <ApiCall/> }/>
-          <Route exact path='/specs/*' element={ <Spec/> }/>
-          <Route exact path='/location/*' element={ <Location/> }/>
+          <Route path='/' element={ <ApiCall/> }/>
+          <Route path='/specs/*' element={ <Spec/> }/>
+          <Route path='/location/*' element={ <Location/> }/>
         </Routes>
-        
-      </BrowserRouter>
-
-      
 
   );
 }
