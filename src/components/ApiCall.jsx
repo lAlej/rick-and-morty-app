@@ -40,8 +40,9 @@ import "../style/ApiCall.css"
         .then(res => res.json())
         .then(
             (results) => {
-                setCharacters(results.results);
-                setDataLoaded(true);
+                console.log(results)
+                // setCharacters(results.results);
+                // setDataLoaded(true);
                 
             } ,
         (error) => {
