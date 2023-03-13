@@ -7,9 +7,7 @@ import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-        <HashRouter>
-                <App />
-        </HashRouter>
+        <h1>Funcionando</h1>
 );
 
 // If you want to start measuring performance in your app, pass a function
