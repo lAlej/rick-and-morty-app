@@ -8,7 +8,7 @@ Este proyecto fue realizado con ReactJs, react-router-dom y la Api de Rick and M
 * [LinkedIn](https://www.linkedin.com/in/lapee/)
 
 ## Ver ejemplo en vivo 💻
-- [Trabajando en deploy]
+- - [https://lalej.github.io/rick-and-morty-app/#/](https://lalej.github.io/rick-and-morty-app/#/)
 
 ## Instalación 📀
 Este proyecto esta realizado con ReactJS, por lo que es necesario descargarlo e iniciarlo con npm.
