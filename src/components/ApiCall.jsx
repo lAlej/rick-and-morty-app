@@ -40,13 +40,12 @@ import "../style/ApiCall.css"
         .then(res => res.json())
         .then(
             (results) => {
-                console.log(results)
-                // setCharacters(results.results);
-                // setDataLoaded(true);
+                setCharacters(results.results);
+                setDataLoaded(true);
                 
             } ,
         (error) => {
-            return <h1>Error: {error}</h1>
+            return console.log(error)
         })
 
     }
